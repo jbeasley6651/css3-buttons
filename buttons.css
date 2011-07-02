@@ -1,0 +1,129 @@
+
+/***********************************
+	Rounding
+***********************************/
+
+._round_5 {-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+._round_10{-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px;}
+._round_15{-moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;}
+._round_20{-moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px;}
+._round_25{-moz-border-radius: 25px; -webkit-border-radius: 25px; border-radius: 25px;}
+._round_30{-moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;}
+
+
+
+/***********************************
+	Buttons
+***********************************/
+.green_button {
+	background: #7fbf4d;
+	background: -moz-linear-gradient(center top , #92CC23 0%, #4b930c 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#92CC23), to(#4b930c));
+	border: 1px solid #63a62f;
+	border-bottom: 1px solid #5b992b;
+	-moz-box-shadow: inset 0 1px 0 0 #e3efc5;
+	-webkit-box-shadow: inset 0 1px 0 0 #e3efc5;
+	box-shadow: inset 0 1px 0 0 #e3efc5;
+	padding:10px;
+	text-align:center;
+	color:#fff;
+	text-shadow: 0 1px 0 #507f0e;
+}
+
+.green_button:hover {
+	background: -moz-linear-gradient(top, #4b930c 0%, #92CC23 100%);
+ 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4b930c), to(#92CC23));
+ 	-moz-box-shadow: inset 0 1px 0 0 #92CC23;
+ 	-webkit-box-shadow: inset 0 1px 0 0 #92CC23;
+ 	box-shadow: inset 0 1px 0 0 #92CC23;
+ 	text-shadow: 0 -1px 0 #507f0e;
+ 	cursor: pointer;
+	padding:10px;
+	text-shadow: 0 -1px 0 #4B930C;
+
+}
+
+
+.gray_button {
+	background: #888888;
+	background: -moz-linear-gradient(center top , #b6b5b5 0%, #888888 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b6b5b5), to(#888888));
+	border: 1px solid #9c9a9a;
+	border-bottom: 1px solid #727272;
+	-moz-box-shadow: inset 0 1px 0 0 #eee;
+	-webkit-box-shadow: inset 0 1px 0 0 #eee;
+	box-shadow: inset 0 1px 0 0 #eee;
+	text-align: center;
+	text-shadow: 0 1px 0 #333;
+	padding:10px;
+	color:#fff;
+}
+
+.gray_button:hover {
+	background: #888888;
+	background: -moz-linear-gradient(center top , #888888 0%, #b6b5b5 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#888888), to(#b6b5b5));
+	-moz-box-shadow: inset 0 1px 0 0 #ccc;
+	-webkit-box-shadow: inset 0 1px 0 0 #ccc;
+	box-shadow: inset 0 1px 0 0 #ccc;
+	text-shadow: 0 -1px 0 #333;
+	cursor: pointer;
+	
+}
+
+.blue_button {
+	  background: #888888;
+	  background: -moz-linear-gradient(center top , #66ddf9 0%, #58bfd7 100%) repeat scroll 0 0 transparent;
+	  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#66ddf9), to(#58bfd7));
+	  border: 1px solid #4bbbd4;
+	  border-bottom: 1px solid #4bbbd4;
+	  -moz-box-shadow: inset 0 1px 0 0 #dcf7fd;
+	  -webkit-box-shadow: inset 0 1px 0 0 #dcf7fd;
+	  box-shadow: inset 0 1px 0 0 #dcf7fd;
+	  color: #fff;
+	  text-align: center;
+	  text-shadow: 0 1px 0 #0a6579;
+	padding:10px;
+	
+}
+
+.blue_button:hover {
+	background: #888888;
+	background: -moz-linear-gradient(center top , #58bfd7 0%, #66ddf9 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#58bfd7), to(#66ddf9));
+	-moz-box-shadow: inset 0 1px 0 0 #9feafa;
+	-webkit-box-shadow: inset 0 1px 0 0 #9feafa;
+	box-shadow: inset 0 1px 0 0 #9feafa;
+	text-shadow: 0 -1px 0 #0a6579;
+	cursor: pointer;
+	color: #fff;
+	
+}
+
+.red_button {
+	  background: #888888;
+	  background: -moz-linear-gradient(center top , #d02525 0%, #920b0b 100%) repeat scroll 0 0 transparent;
+	  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d02525), to(#920b0b));
+	  border: 1px solid #920b0b;
+	  border-bottom: 1px solid #727272;
+	  -moz-box-shadow: inset 0 1px 0 0 #efbbbb;
+	  -webkit-box-shadow: inset 0 1px 0 0 #efbbbb;
+	  box-shadow: inset 0 1px 0 0 #efbbbb;
+	padding:10px;
+	text-align:center;
+	color:#fff;
+	text-shadow: 0 1px 0 #000000;
+	
+}
+
+.red_button:hover {
+	background: #888888;
+ 	background: -moz-linear-gradient(center top , #920b0b 0%, #d02525 100%) repeat scroll 0 0 transparent;
+ 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#920b0b), to(#d02525));
+ 	-moz-box-shadow: inset 0 1px 0 0 #ce7575;
+ 	-webkit-box-shadow: inset 0 1px 0 0 #ce7575;
+ 	box-shadow: inset 0 1px 0 0 #ce7575;
+ 	text-shadow: 0 -1px 0 #000000;
+ 	cursor: pointer;
+	color: #fff;
+}
